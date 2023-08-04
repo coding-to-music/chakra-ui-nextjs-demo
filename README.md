@@ -69,14 +69,16 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-How to Use Chakra UI with Next.js and React
+# How to Use Chakra UI with Next.js and React
+
+https://www.freecodecamp.org/news/how-to-use-chakra-ui-with-next-js-and-react/
 
 OCTOBER 21, 2020
 
-Colby Fayock
+By Colby Fayock
 
 <div style="text-align:center;">
-  <img src="/images/star-wars-hug-yellow-cropped.png" alt="Image" />
+  <img src="/images/star-wars-hug-yellow-cropped.png" alt="Image" width="400" height="400" />
   <p>Colby Fayock</p>
 </div>
 
