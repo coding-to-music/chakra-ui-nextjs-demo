@@ -16,6 +16,11 @@ https://chakra-ui.com/getting-started
 
 https://chakra-ui.com/community/recipes/using-fonts
 
+<div style="text-align:center;">
+  <img src="/images/chakra.jpg" alt="Image" width="200" height="200" />
+  <p>Chakra Component Library with Next.js</p>
+</div>
+
 ## Environment variables:
 
 ```java
@@ -78,7 +83,7 @@ OCTOBER 21, 2020
 By Colby Fayock
 
 <div style="text-align:center;">
-  <img src="/images/star-wars-hug-yellow-cropped.png" alt="Image" width="400" height="400" />
+  <img src="/images/star-wars-hug-yellow-cropped.png" alt="Image" width="200" height="200" />
   <p>Colby Fayock</p>
 </div>
 
