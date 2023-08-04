@@ -159,12 +159,18 @@ Follow along with the commit!
 
 Next, let’s install Chakra UI.
 
+Note - the original article/demo is now very changed due to Next.js version 13
+
+Details here:
+
+https://chakra-ui.com/getting-started/nextjs-guide
+
 Inside of your project directory, run:
 
 ```java
-yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion
+yarn add @chakra-ui/react @chakra-ui/next-js @emotion/react @emotion/styled framer-motion
 # or
-npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+npm i @chakra-ui/react @chakra-ui/next-js @emotion/react @emotion/styled framer-motion
 
 # (old) yarn add @chakra-ui/core @emotion/core @emotion/styled emotion-theming
 # (old) npm install @chakra-ui/core @emotion/core @emotion/styled emotion-theming
@@ -186,17 +192,18 @@ Next, replace the return statement inside of the component with:
 ```java
 import * as React from 'react'
 
-// 1. import `ChakraProvider` component
+// pages/_app.js
 import { ChakraProvider } from '@chakra-ui/react'
 
-function App() {
-  // 2. Wrap ChakraProvider at the root of your app
+function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider>
-      <TheRestOfYourApplication />
+      <Component {...pageProps} />
     </ChakraProvider>
   )
 }
+
+export default MyApp;
 ```
 
 ```java
