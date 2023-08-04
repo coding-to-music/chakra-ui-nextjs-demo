@@ -17,7 +17,7 @@ https://chakra-ui.com/getting-started
 https://chakra-ui.com/community/recipes/using-fonts
 
 <div style="text-align:center;">
-  <img src="/images/chakra.jpg" alt="Image" width="200" height="200" />
+  <img src="/images/chakra.jpg" alt="Image" />
   <p>Chakra Component Library with Next.js</p>
 </div>
 
