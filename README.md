@@ -274,7 +274,7 @@ Add Text and Code to the import statement and replace the description with:
 </Text>
 ```
 
-We’re using the Text component to recreate a <p> tag and the Code component to create our <code> tag. Similar to our Heading component, we’re adding a fontSize to make the font bigger and mt which stands for margin-top to add some space above it.
+We’re using the Text component to recreate a `<p>` tag and the Code component to create our `<code>` tag. Similar to our Heading component, we’re adding a fontSize to make the font bigger and mt which stands for margin-top to add some space above it.
 
 And now we have our header!
 
@@ -366,8 +366,10 @@ Chakra considers its responsive styling to be mobile first, which is why you see
 
 And with that change, we can now see that on a large device, we still have our grid.
 
-chakra-ui-large-device
-Chakra UI components on large device
+<div style="text-align:center;">
+  <img src="/images/chakra-ui-large-device.jpg" alt="Image" />
+  <p>Chakra UI components on large device</p>
+</div>
 
 But now on mobile, our cards take up the entire width!
 
