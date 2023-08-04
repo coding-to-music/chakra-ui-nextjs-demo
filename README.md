@@ -87,7 +87,7 @@ By Colby Fayock
   <p><em>Colby Fayock</em></p>
 </div>
 
-How to Use Chakra UI with Next.js and React
+## How to Use Chakra UI with Next.js and React
 
 Building websites and applications is hard. There are a lot of things to consider to make sure our apps are usable and accessible including how our React components work.
 
@@ -162,9 +162,12 @@ Next, let’s install Chakra UI.
 Inside of your project directory, run:
 
 ```java
-yarn add @chakra-ui/core @emotion/core @emotion/styled emotion-theming
+yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion
 # or
-npm install @chakra-ui/core @emotion/core @emotion/styled emotion-theming
+npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
+# (old) yarn add @chakra-ui/core @emotion/core @emotion/styled emotion-theming
+# (old) npm install @chakra-ui/core @emotion/core @emotion/styled emotion-theming
 ```
 
 This will install Chakra UI and its dependencies, which includes Emotion, as it relies on it for the styling.
@@ -174,19 +177,36 @@ To get Chakra working inside of our app, we need to configure a Provider at the 
 Inside `pages/_app.js`, first let’s import our Provider at the top:
 
 ```java
-import { ThemeProvider, theme } from '@chakra-ui/core';
+
+# (old) import { ThemeProvider, theme } from '@chakra-ui/core';
 ```
 
 Next, replace the return statement inside of the component with:
 
 ```java
-function MyApp({ Component, pageProps }) {
+import * as React from 'react'
+
+// 1. import `ChakraProvider` component
+import { ChakraProvider } from '@chakra-ui/react'
+
+function App() {
+  // 2. Wrap ChakraProvider at the root of your app
   return (
-    <ThemeProvider theme={theme}>
-      <Component {...pageProps} />
-    </ThemeProvider>
+    <ChakraProvider>
+      <TheRestOfYourApplication />
+    </ChakraProvider>
   )
 }
+```
+
+```java
+// (old) function MyApp({ Component, pageProps }) {
+//   return (
+//     <ThemeProvider theme={theme}>
+//       <Component {...pageProps} />
+//     </ThemeProvider>
+//   )
+// }
 ```
 
 As you’ll notice, we’re also passing a theme variable to our provider. We’re importing the Chakra UI default theme straight from Chakra and passing it in to our ThemeProvider so all of our components can get the default styles and configurations.
