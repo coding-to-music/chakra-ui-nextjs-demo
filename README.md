@@ -18,7 +18,7 @@ https://chakra-ui.com/community/recipes/using-fonts
 
 <div style="text-align:center;">
   <img src="/images/chakra.jpg" alt="Image" />
-  <p>Chakra Component Library with Next.js</p>
+  <p><em>Chakra Component Library with Next.js</em></p>
 </div>
 
 ## Environment variables:
@@ -84,7 +84,7 @@ By Colby Fayock
 
 <div style="text-align:center;">
   <img src="/images/star-wars-hug-yellow-cropped.png" alt="Image" width="200" height="200" />
-  <p>Colby Fayock</p>
+  <p><em>Colby Fayock</em></p>
 </div>
 
 How to Use Chakra UI with Next.js and React
@@ -150,7 +150,7 @@ That should spin up your development server at http://localhost:3000 and we shou
 
 <div style="text-align:center;">
   <img src="/images/nextjs-default-template.jpg" alt="Image" />
-  <p>Default Next.js template</p>
+  <p><em>Default Next.js template</em></p>
 </div>
 
 Follow along with the commit!
@@ -212,7 +212,7 @@ And now if we reload the page, we can see that things are looking a little bit d
 
 <div style="text-align:center;">
   <img src="/images/nextjs-chakra-ui-css-reset.jpg" alt="Image" />
-  <p>Next.js with Chakra UI CSS Reset</p>
+  <p><em>Next.js with Chakra UI CSS Reset</em></p>
 </div>
 
 The browser comes with a lot of default styles and by default, Chakra UI doesn’t override them. This includes styles like borders on a button element.
@@ -251,7 +251,7 @@ And we can already see our page is looking more like the default template.
 
 <div style="text-align:center;">
   <img src="/images/chakra-ui-heading-component.jpg" alt="Image" />
-  <p>Chakra UI Heading component</p>
+  <p><em>Chakra UI Heading component</em></p>
 </div>
 
 We also want to add back our link.
@@ -268,7 +268,7 @@ And we can see that we have our Next.js link!
 
 <div style="text-align:center;">
   <img src="/images/chakra-ui-heading-with-link.jpg" alt="Image" />
-  <p>Chakra UI Heading with Link component</p>
+  <p><em>Chakra UI Heading with Link component</em></p>
 </div>
 
 The last piece of the header is the description. For that, we want to use the Text component.
@@ -281,13 +281,13 @@ Add Text and Code to the import statement and replace the description with:
 </Text>
 ```
 
-We’re using the Text component to recreate a `<p>` tag and the Code component to create our `<code>` tag. Similar to our Heading component, we’re adding a fontSize to make the font bigger and mt which stands for margin-top to add some space above it.
+We’re using the Text component to recreate a `<p><em>` tag and the Code component to create our `<code>` tag. Similar to our Heading component, we’re adding a fontSize to make the font bigger and mt which stands for margin-top to add some space above it.
 
 And now we have our header!
 
 <div style="text-align:center;">
   <img src="/images/chakra-ui-text-with-code-component.jpg" alt="Image" />
-  <p>Chakra UI Text component with Code</p>
+  <p><em>Chakra UI Text component with Code</em></p>
 </div>
 
 ### Replacing info cards with Chakra UI components
@@ -323,7 +323,7 @@ And after only changing the first card, we can now see the changes:
 
 <div style="text-align:center;">
   <img src="/images/chakra-ui-box-component.jpg" alt="Image" />
-  <p>Chakra UI Box component</p>
+  <p><em>Chakra UI Box component</em></p>
 </div>
 
 Now, we can go back and replace the other three cards with the same components to finish recreating our grid.
@@ -341,7 +341,7 @@ And with all of our changes, we can now see our recreated Next.js starting templ
 
 <div style="text-align:center;">
   <img src="/images/chakra-ui-nextjs-grid.jpg" alt="Image" />
-  <p>Chakra UI recreating Next.js grid</p>
+  <p><em>Chakra UI recreating Next.js grid</em></p>
 </div>
 
 Follow along with the commit!
@@ -354,7 +354,7 @@ If we look at our page on a mobile device, we can see that our cards aren’t fi
 
 <div style="text-align:center;">
   <img src="/images/chakra-ui-not-responsive.jpg" alt="Image" />
-  <p>Chakra UI default without responsive</p>
+  <p><em>Chakra UI default without responsive</em></p>
 </div>
 
 Chakra allows us to set responsive styles with its baked in sizing, allowing us to easily recreate our responsive grid cards.
@@ -375,14 +375,14 @@ And with that change, we can now see that on a large device, we still have our g
 
 <div style="text-align:center;">
   <img src="/images/chakra-ui-large-device.jpg" alt="Image" />
-  <p>Chakra UI components on large device</p>
+  <p><em>Chakra UI components on large device</em></p>
 </div>
 
 But now on mobile, our cards take up the entire width!
 
 <div style="text-align:center;">
   <img src="/images/chakra-ui-small-device.jpg" alt="Image" />
-  <p>Chakra UI components on small device</p>
+  <p><em>Chakra UI components on small device</em></p>
 </div>
 
 Using the array pattern works for all of the breakpoints, so if you wanted more control over your styles, Chakra lets you do that.
@@ -405,7 +405,7 @@ And we see our change.
 
 <div style="text-align:center;">
   <img src="/images/nextjs-purple-header.jpg" alt="Image" />
-  <p>Making Next.js header link purple with color style prop</p>
+  <p><em>Making Next.js header link purple with color style prop</em></p>
 </div>
 
 That looks great, but let’s update it to the exact purple I use.
@@ -444,7 +444,7 @@ But if we reload the page, our link isn’t purple anymore!
 
 <div style="text-align:center;">
   <img src="/images/nextjs-link-no-color.jpg" alt="Image" />
-  <p>Next.js link with no color</p>
+  <p><em>Next.js link with no color</em></p>
 </div>
 
 Chakra typically uses ranges of colors which allows us to use different shades of each of the colors. In our Link component, we’re specifying purple.500 which we didn’t set to exist.
@@ -478,7 +478,7 @@ And now if we reload the page, we can see our purple!
 
 <div style="text-align:center;">
   <img src="/images/nextjs-custom-purple.jpg" alt="Image" />
-  <p>Next.js with custom purple</p>
+  <p><em>Next.js with custom purple</em></p>
 </div>
 
 While we used a range value here, we can also specify color variables without a range.
@@ -504,7 +504,7 @@ And we can see that we’re now using our purple without overriding the original
 
 <div style="text-align:center;">
   <img src="/images/nextjs-spacejelly-purple.jpg" alt="Image" />
-  <p>Next.js with custom color variable</p>
+  <p><em>Next.js with custom color variable</em></p>
 </div>
 
 We can apply this to most parts of the styles of Chakra, including Typography and setting custom Breakpoints. It’s another way to make our project custom to our own while still taking advantage of the power of Chakra!
