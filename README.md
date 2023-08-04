@@ -1,3 +1,33 @@
+# chakra-ui-nextjs-demo
+
+# 🚀 How to Use Chakra UI with Next.js and React 🚀
+
+https://github.com/coding-to-music/chakra-ui-nextjs-demo
+
+https://chakra-ui-nextjs-demo.vercel.app
+
+From / By Colby Fayock
+
+https://www.youtube.com/watch?v=ubB5l-HVPgY&ab_channel=ColbyFayock
+
+## Environment variables:
+
+```java
+
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/chakra-ui-nextjs-demo.git
+git push -u origin main
+```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
