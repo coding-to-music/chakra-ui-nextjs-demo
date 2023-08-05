@@ -174,6 +174,7 @@ npm i @chakra-ui/react @chakra-ui/next-js @emotion/react @emotion/styled framer-
 
 # (old) yarn add @chakra-ui/core @emotion/core @emotion/styled emotion-theming
 # (old) npm install @chakra-ui/core @emotion/core @emotion/styled emotion-theming
+
 ```
 
 This will install Chakra UI and its dependencies, which includes Emotion, as it relies on it for the styling.
