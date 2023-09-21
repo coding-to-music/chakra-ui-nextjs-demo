@@ -1,6 +1,10 @@
 # chakra-ui-nextjs-demo
 
-# 🚀 How to Use Chakra UI with Next.js and React 🚀
+# 🚀 Tutorial: How to Use Chakra UI with Next.js and React 🚀
+
+### Status
+
+- Long tutorial, only the first parts are completed. Just does hello world so far.
 
 https://github.com/coding-to-music/chakra-ui-nextjs-demo
 
